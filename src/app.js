@@ -6,14 +6,14 @@ window.onload = function() {
   document.querySelector("#excusa").innerHTML = generador();
 };
 function generador() {
-  let who = ["the dog", "my granma", "his turtle", "my bird"];
-  let what = ["eat", "pissed", "crushed", "broked"];
+  let who = ["un ovni", "mi ordenador", "mi dinosaurio", "mi moto"];
+  let what = ["aterriza", "exploto", "vomito", "rodo"];
   let when = [
-    "before the class",
-    "right in time",
-    "when I finished",
-    "during my lunch",
-    "while I was praying"
+    "sobre mi escritorio",
+    "sobre mi tarea",
+    "sobre mi libreta",
+    "mientras yo estaba escribiendo",
+    "durante la siesta"
   ];
   let whoI = Math.floor(Math.random() * who.length);
   let whatI = Math.floor(Math.random() * what.length);
